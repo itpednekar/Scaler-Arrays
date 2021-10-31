@@ -8,7 +8,6 @@ public class Solution {
         for(int i=0; i<32; i++){
             long contiZero = 0L;
             long subArrWithORZero = 0L;
-            long subArrWithOROne = 0L;
 
             for(int j=0; j<n; j++){
                 if((A[j] & (1 << i)) == (1 << i)){
